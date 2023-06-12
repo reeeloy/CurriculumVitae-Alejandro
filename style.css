@@ -2,6 +2,10 @@
 
 body {
     font-family: "EB Garamond", serif;
+    background-image: url('fondo-textura-papel-arrugado-realista_389675-162.avif');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
 }
 
 .container {
