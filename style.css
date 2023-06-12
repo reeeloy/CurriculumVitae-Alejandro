@@ -1,14 +1,7 @@
-@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:wght@500&display=swap');;
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:wght@500&display=swap');
 
 body {
     font-family: "EB Garamond", serif;
-}
-
-.image-profile {
-    width: 250px; 
-    height: auto; 
-    border-radius: 15%; 
-
 }
 
 .container {
@@ -17,7 +10,99 @@ body {
     align-items: center;
     justify-content: center;
     text-align: center;
-    height: 100vh;
+    height: 95vh;
 }
 
+h1 {
+    font-size: 30px;
+    margin-bottom: 15px;
+}
 
+h2 {
+    font-size: 24px;
+    margin-bottom: 5px;
+    text-align: left;
+    margin-right: 0vh;
+}
+
+h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+    text-align: left;
+    margin-right: 80vh;
+}
+
+h4 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    text-align: left;
+    margin-top: -21vh;
+}
+
+.skills-container {
+    margin-bottom: 20px;
+}
+
+.image-profile {
+    width: 250px;
+    height: auto;
+    border-radius: 25%;
+    margin-bottom: -5px;
+}
+
+.first-paragraph {
+    font-size: 20px;
+    max-width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.second-paragraph {
+    font-size: 20px;
+    max-width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+ul.Estudios {
+    list-style-type: disc;
+    margin-right: 70vh;
+    margin-bottom: 30px;
+    text-align: left;
+}
+
+ul.Skills {
+    display: block;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: -1vh;
+    text-align: left;
+}
+
+ul.Estudios,
+ul.Skills {
+    border-right: 1px solid #ccc;
+    padding-right: 50px; 
+}
+
+.contact-info {
+    position: absolute;
+    bottom: 30px;
+    right: 67vh;
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+.contact-info-item {
+    margin-left: 20px;
+    text-align: right;
+}
+
+.contact-info h4, .contact-info p {
+    margin: 0;
+}
+
+.contact-container {
+    position: relative;
+}
